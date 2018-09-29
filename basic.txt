@@ -1,0 +1,149 @@
+$ git clone https://github.com/banjaiah/anji.git
+Cloning into 'anji'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 13 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+
+Reddy Pramodh@Pramodh MINGW64 ~ (master)
+$ pwd
+/c/Users/Reddy Pramodh
+
+Reddy Pramodh@Pramodh MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .AndroidStudio1.5/
+        .PyCharmCE2018.2/
+        .anaconda/
+        .android/
+        .bash_history
+        .condarc
+        .config/
+        .eclipse/
+        .gradle/
+        .ionic/
+        .ipynb_checkpoints/
+        .ipython/
+        .jupyter/
+        .m2/
+        .oracle_jre_usage/
+        .p2/
+        3D Objects/
+        Anaconda3/
+        AndroidStudioProjects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Dropbox/
+        Favorites/
+        Intel/
+        IntelGraphicsProfiles/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        MyFirstNotebook.ipynb
+        MyNotes.ipynb
+        NTUSER.DAT
+        NTUSER.DAT{48b6f356-98dc-11e8-ade7-cf6aeb8a932a}.TM.blf
+        NTUSER.DAT{48b6f356-98dc-11e8-ade7-cf6aeb8a932a}.TMContainer000000000000                                                                                                                00000001.regtrans-ms
+        NTUSER.DAT{48b6f356-98dc-11e8-ade7-cf6aeb8a932a}.TMContainer000000000000                                                                                                                00000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Tracing/
+        Videos/
+        anji/
+        app/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        workspace/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Reddy Pramodh@Pramodh MINGW64 ~ (master)
+$ cd anji/
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ dir
+README.md  test.txt
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ git add test.txt
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ git commit -m "adding test file"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Reddy Pramodh@Pramodh.(none)')
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ git config --global user.email "anji.bethapudi@gmail.com"
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ git config --global user.name "banjaiah"
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ git commit -m "adding test file"
+[master c55d955] adding test file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': banjaiah
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 140.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/banjaiah/anji.git
+   7959db7..c55d955  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Reddy Pramodh@Pramodh MINGW64 ~/anji (master)
+$
